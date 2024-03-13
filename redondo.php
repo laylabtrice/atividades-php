@@ -8,10 +8,10 @@
 </head>
 <body>
     <form method="post">
-   <label for="num">número:</label>
-   <input type="number" name="num" />
-   <input type="submit" name="submit" value="Validar" />
-</form>
+    <label for="num">número:</label>
+    <input type="number" name="num" />
+    <input type="submit" name="submit" value="Validar" />
+    </form>
     <?php
     $num = $_POST["num"];
     if ($num % 10 == 0)

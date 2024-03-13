@@ -6,9 +6,9 @@
 <body>
     <h1>Par ou Impar?</h1>
     <form method="post" action="par-impar.php">
-     <label for="num">número:</label>
-     <input type="number" step="0.01" name="num" />
-     <input type="submit" name="submit" value="Calcular" />
+    <label for="num">número:</label>
+    <input type="number" step="0.01" name="num" />
+    <input type="submit" name="submit" value="Calcular" />
     </form>
 
     <?php
